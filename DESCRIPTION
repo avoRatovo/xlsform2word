@@ -1,0 +1,22 @@
+Package: xlsform2word
+Type: Package
+Title: Convert XLSForm to Structured Word Document
+Version: 0.1.0
+Author: Ny Avo RATOVO ANDRIANARISOA
+Maintainer: NyAvo RATOVO ANDRIANARISOA <antrannyavo@gmail.com>
+Description: Convert XLSForm (survey in Excel) to a well-formatted Word document with sections, conditions, options, and labels. Designed for survey documentation and data collection design.
+usethis: :use_mit_license("NyAvo RATOVO ANDRIANARISOA")
+Encoding: UTF-8
+LazyData: true
+Imports:
+    readxl,
+    officer,
+    dplyr,
+    stringr,
+    tools,
+    rlang
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+License: MIT + file LICENSE
